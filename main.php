@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Sign Up Form</title>
 </head>
 <style>
 html {
@@ -67,7 +66,6 @@ body {
   pointer-events: none;
   transition: .5s;
 }
-/* label of input box will shift to some up and color will also change  */
 .signup-box .input-box input:focus ~ label,
 .signup-box .input-box input:valid ~ label {
   top: -27px;
@@ -85,7 +83,6 @@ body {
   overflow: hidden;
   transition: .5s;
   margin-top: 40px;
-  border-radius: 15px;
 }
 .signup-box form a button{
   position: relative;
@@ -98,9 +95,7 @@ body {
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 15px;
 }
-/* Button colour change on hover  */
 .signup-box a:hover {
   background: #03e9f4;
   color: #fff;
