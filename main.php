@@ -85,6 +85,7 @@ body {
   overflow: hidden;
   transition: .5s;
   margin-top: 40px;
+  border-radius: 15px;
 }
 .signup-box form a button{
   position: relative;
@@ -97,6 +98,7 @@ body {
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 15px;
 }
 /* Button colour change on hover  */
 .signup-box a:hover {
