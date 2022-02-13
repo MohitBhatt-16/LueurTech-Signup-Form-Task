@@ -15,7 +15,7 @@ body {
   margin:0;
   padding:0;
   font-family: sans-serif;
-  background: linear-gradient(#141e30, #243b55);
+  background: linear-gradient(#2b0ae3, #8d06f3);
 }
 .error {
   color: rgba(253, 1, 1, 0.87);
@@ -38,7 +38,7 @@ body {
   font-size: 50px;
   margin: 0 0 30px;
   padding: 0;
-  color: #19e1b3;
+  color: #32ef5b;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ body {
 .signup-box .input-box input:valid ~ label {
   top: -27px;
   left: 0;
-  color: #03e9f4;
+  color: #32ef5b;
   font-size: 20px;
 }
 
@@ -93,7 +93,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgb(38 35 35 / 50%);
-  color: #03e9f4;
+  color: #32ef5b;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -119,7 +119,7 @@ body {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #03e9f4);
+  background: linear-gradient(90deg, transparent, #32ef5b);
   animation: btn-anim1 1s linear infinite;
 }
 
@@ -137,7 +137,7 @@ body {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #03e9f4);
+  background: linear-gradient(180deg, transparent, #32ef5b);
   animation: btn-anim2 1s linear infinite;
   animation-delay: .25s
 }
@@ -156,7 +156,7 @@ body {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #03e9f4);
+  background: linear-gradient(270deg, transparent, #32ef5b);
   animation: btn-anim3 1s linear infinite;
   animation-delay: .5s
 }
@@ -175,7 +175,7 @@ body {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #03e9f4);
+  background: linear-gradient(360deg, transparent, #32ef5b);
   animation: btn-anim4 1s linear infinite;
   animation-delay: .75s
 }
@@ -201,8 +201,8 @@ body {
 .infoheading h1 {
   text-align: center;
   font-size: 5.5rem;
-  background: #03e9f4;
-  color: #1a1a1a;
+  background: #eef9ef;
+  color: #4209ef;
   font-family: 'Pushster', cursive;
   -webkit-background-clip: text;
   -webkit-text-stroke: 8px transparent;
